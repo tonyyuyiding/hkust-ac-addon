@@ -1,0 +1,29 @@
+{
+  "name": "HKUST AC Addon",
+  "description": "An extension to improve HKUST air conditioning system experience.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/ac16.png",
+    "32": "img/ac32.png",
+    "48": "img/ac48.png",
+    "128": "img/ac128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://w5.ab.ust.hk/njggt/app/",
+        "https://w5.ab.ust.hk/njggt/app/home/"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "css": [
+        "css/panel.css"
+      ]
+    }
+  ]
+}

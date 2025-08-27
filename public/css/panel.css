@@ -1,0 +1,36 @@
+/* AC Addon Styles */
+
+#ac-addon-time-input {
+  width: 42px;
+  text-align: center;
+}
+
+#ac-addon-time-input::-webkit-outer-spin-button,
+#ac-addon-time-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#ac-addon-submit-btn {
+  height: 22px;
+  margin: 0 4px 0 8px;
+  padding: 0 8px;
+  background: #1890ff;
+  color: #fff;
+  border: none;
+  border-radius: 100px;
+  font-size: 12px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(22, 119, 255, 0.08);
+  transition: background 0.2s;
+}
+
+#ac-addon-submit-btn:hover {
+  background: #1677ff;
+}
+
+#ac-addon-submit-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}

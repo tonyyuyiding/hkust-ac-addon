@@ -15,7 +15,9 @@
   "content_scripts": [
     {
       "matches": [
+        "https://w5.ab.ust.hk/njggt/app",
         "https://w5.ab.ust.hk/njggt/app/",
+        "https://w5.ab.ust.hk/njggt/app/home",
         "https://w5.ab.ust.hk/njggt/app/home/"
       ],
       "js": [

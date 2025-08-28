@@ -1,7 +1,7 @@
 {
   "name": "HKUST AC Addon",
   "description": "An extension to improve HKUST air conditioning system experience.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup.html"
@@ -27,5 +27,8 @@
         "css/panel.css"
       ]
     }
-  ]
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
 }

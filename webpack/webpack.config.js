@@ -5,6 +5,7 @@ module.exports = {
     mode: "production",
     entry: {
         main: path.resolve(__dirname, "..", "src", "main.ts"),
+        background: path.resolve(__dirname, "..", "src", "background.ts"),
     },
     output: {
         path: path.join(__dirname, "../dist"),
